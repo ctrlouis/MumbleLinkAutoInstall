@@ -34,8 +34,3 @@ jobs:
             - Second Change
           draft: false
           prerelease: false
-      - name: Upload Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "release.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
