@@ -19,10 +19,6 @@ jobs:
         type: 'zip'
         filename: 'mumbleLinkAutoInstaller.zip'
         exclusions: '*.git*'
-    - name: Switch to Release Folder
-      run: |
-        cd release
-        ls -la
     - name: Bump version and push tag
       uses: anothrNick/github-tag-action@master
       env:
