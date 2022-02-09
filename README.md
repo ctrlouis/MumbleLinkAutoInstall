@@ -2,7 +2,7 @@
 
 Installeur automatique pour le mode Minecraft : Mumble Link
 
-## Téléchargement des scripts :
+## Comment ca marche :
 
 1. Télécharger la dernière release de MumbleLinkAutoInstaller : https://github.com/ctrlouis/MumbleLinkAutoInstall/releases
 
