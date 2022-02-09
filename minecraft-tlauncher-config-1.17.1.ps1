@@ -1,4 +1,4 @@
-$ressourcesPath="ressources/1.8.8";
+$ressourcesPath="ressources/1.17.1";
 $mumbleLinkModFileName="$ressourcesPath/mumblelink-1.17.1-5.1.0.jar";
 $modsFolderPath="$env:APPDATA/.minecraft/mods";
 
