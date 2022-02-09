@@ -10,13 +10,13 @@ Installeur automatique pour le mode Minecraft : Mumble Link
 
 3. Faire un clique droit sur le fichier `mumble-setup.ps1` et cliquer sur `Executer avec le Powershell`
 
-4. Lancer une première fois le jeux en version 1.8.8
+4. Lancer une première fois le jeux dans la version désiré
 
 5. Executer le fichier de config en fonction de votre version de minecraft (officiel ou tlauncher)
 - VERSION OFFICIELLE :
 
-    Faire un clique droit sur le fichier `minecraft-official-config-1.8.8.ps1` et cliquer sur `Executer avec le Powershell`
+    Faire un clique droit sur le fichier `minecraft-official-config-<version_du_jeux>.ps1` et cliquer sur `Executer avec le Powershell`
 
 - VERSION TLAUNCHER
 
-    Faire un clique droit sur le fichier `minecraft-tlauncher-config-1.8.8.ps1` et cliquer sur `Executer avec le Powershell`
+    Faire un clique droit sur le fichier `minecraft-tlauncher-config-<version_du_jeux>.ps1` et cliquer sur `Executer avec le Powershell`
