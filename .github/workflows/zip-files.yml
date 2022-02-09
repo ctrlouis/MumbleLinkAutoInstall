@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    
+
     - uses: actions/checkout@master
 
     - name: Archive Release
@@ -36,3 +36,9 @@ jobs:
           - Second Change
         draft: false
         prerelease: false
+
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "mumbleLinkAutoInstaller.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
