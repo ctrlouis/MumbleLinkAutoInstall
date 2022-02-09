@@ -14,6 +14,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          exclusions: '*.git*'
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -28,3 +34,8 @@ jobs:
             - Second Change
           draft: false
           prerelease: false
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "release.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
