@@ -9,6 +9,8 @@ Start-Process "$ressourcesPath/$forgeInstallerFileName" -Wait | Out-Null; # Run 
 Write-Host "Done";
 
 Write-Host "Copying mods...";
+Remove-Item "$modsFolderPath/mumblelink*";
+Remove-Item "$modsFolderPath/OptiFine*";
 Copy-Item $mumbleLinkModFileName "$modsFolderPath/." ;
 Copy-Item $optiFineModFileName "$modsFolderPath/." ;
 Write-Host "Done";
